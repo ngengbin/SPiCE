@@ -31,7 +31,7 @@ body {
       display: none;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 345px) {
     div.navtab {
       display: none;
     }
@@ -41,12 +41,13 @@ body {
     background-color:white;
     color: black;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: medium;
+    font-size: 13px;
+    margin-left: 5px;
 }
 .nav-link {
     color: black;
-    margin-left: 16px;
-    padding: 10px 5px 5px 10px;
+    margin-left: 10px;
+    padding: 5px;
 }
 .navtab .nav-item.show .nav-link, .navtab .nav-link.active {
     color: white;
