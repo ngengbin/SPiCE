@@ -24,7 +24,7 @@ body {
 }
 .dropdown {
     padding-top: 8px;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 @media screen and (min-width: 500px) {
     div.dropdown {
@@ -66,5 +66,5 @@ body {
     background-color: white;
     font-family: 'Julius Sans One', sans-serif;
     font-size: x-small;
-    padding: 13px 0px 0px 30px;
+    padding: 13px 0px 0px 10px;
 }
