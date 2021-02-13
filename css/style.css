@@ -54,11 +54,9 @@ body {
     background-color:#476276;
     border-color: #476276;
 }
-.temp {
-    height: 400px;
-}
 .carousel {
     margin: 30px;
+    max-width: 420px;
 }
 .footer {
     position: relative;
