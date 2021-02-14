@@ -85,6 +85,13 @@ body {
     color: white;
     font-size: small;
 }
+.mailto {
+    text-decoration: underline;
+    color: aliceblue;
+}
+.mailto:hover {
+    color: bisque;
+}
 .contact h6 {
     text-decoration: underline;
 }
