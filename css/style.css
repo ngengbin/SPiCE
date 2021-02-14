@@ -96,6 +96,13 @@ body {
 }
 /* consultant */
 
+.profile {
+    margin: 10px;
+    padding: 5px;
+    max-width: 150px;
+    border-radius: 20px;
+    border: solid bisque 3px;
+}
 /* projects */
 .proj {
     margin: 25px;
