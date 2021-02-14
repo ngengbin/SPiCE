@@ -54,13 +54,13 @@ A demo of the site can be found here
 
 <hr>
 
-| Action (development testing)             | Results      | Status  |
-| -----------------------------------------|:------------:|---------|
-|                                          |              |         |
-|                                          |              |         |
-|                                          |              |         |                 
-|                                          |              |         |
-|                                          |              |         |
+| Action (development testing)             | Results              | Status  |
+| -----------------------------------------|:--------------------:|---------|
+| iOS safari mobile                        | numbers blue colored |         |
+|                                          |                      |         |
+|                                          |                      |         |                 
+|                                          |                      |         |
+|                                          |                      |         |
 
 <hr>
 
@@ -96,7 +96,7 @@ A demo of the site can be found here
 
 
 # Deployment
-
+https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef
 
 # Credits
 
