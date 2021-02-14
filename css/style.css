@@ -79,7 +79,6 @@ body {
     padding: 12px;
     font-family: 'Montserrat', sans-serif;
 }
-/* contact */
 .contact {
     padding: 20px;
     color: white;
@@ -94,4 +93,12 @@ body {
 }
 .contact h6 {
     text-decoration: underline;
+}
+/* consultant */
+
+/* projects */
+.proj {
+    margin: 25px;
+    padding: 10px;
+    background-color: white;
 }
