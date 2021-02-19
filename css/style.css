@@ -114,3 +114,10 @@ body {
     padding: 10px;
     background-color: white;
 }
+/* publication */
+.publication {
+    margin: 20px;
+    border-radius: 20px;
+    border: solid bisque 3px;
+    max-width: 300px;
+}
