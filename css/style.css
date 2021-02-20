@@ -42,7 +42,7 @@ body {
     color: black;
     font-family: 'Julius Sans One', sans-serif;
     font-size: 15px;
-    margin-left: 5px;
+    padding-left: 5px;
 }
 .nav-link {
     color: black;
