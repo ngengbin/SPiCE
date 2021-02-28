@@ -56,9 +56,9 @@ A demo of the site can be found here
 
 | Action (development testing)             | Results              | Status  |
 | -----------------------------------------|:--------------------:|---------|
-| iOS safari mobile                        | numbers blue colored |         |
-|                                          |                      |         |
-|                                          |                      |         |                 
+| iOS safari mobile                        | numbers displays blue|         |
+| iOS safari publication - video           | no autoplay          |         |
+| Samsung 10/11 Chrome                     | wrapped tab          |         |                 
 |                                          |                      |         |
 |                                          |                      |         |
 
