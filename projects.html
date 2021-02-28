@@ -50,7 +50,7 @@
         <div class="row justify-content-center">
             <div class="proj col-3">
                 <a>
-                    <img class="cover" src="images/projects/lunchlearn.png" alt="Lunch & Learn">
+                    <img class="cover mx-auto d-block" src="images/projects/lunchlearn.png" alt="Lunch & Learn">
                 </a>
                 <button class="btn btn-info" data-toggle="modal" data-target="#lunchlearn">Lunch & Learn</button>
             </div>
@@ -153,16 +153,66 @@
 <!-- end lunchlearn modal -->
             <div class="proj col-3">
                 <a>Articles & Seminars
-                    <img class="cover" src="#" alt="project2">
+                    <img class="cover mx-auto d-block" src="#" alt="Articles & Seminars">
                 </a>
-                <button class="btn btn-info">Article & Seminars</button>
+                <button class="btn btn-info" data-toggle="modal" data-target="#seminar">Article & Seminars</button>
             </div>
+<!-- seminars modal -->
+                <div class="modal fade" id="seminar" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalLabel">Articles and Seminars</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                    <ol class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            123
+                                            <a class="badge badge-warning badge-pill" href="#" download="#">PDF</a>
+                                        </li>
+                                    </ol>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- end seminars modal -->
             <div class="proj col-3">
                 <a>Noteworthy Projects
-                    <img class="cover" src="#" alt="project3">
+                    <img class="cover" src="#" alt="Noteworthy Projects">
                 </a>
-                <button class="btn btn-info">Noteworthy Projects</button>
+                <button class="btn btn-info" data-toggle="modal" data-target="#notableproject">Noteworthy Projects</button>
             </div>
+<!-- notable projects modal -->
+                <div class="modal fade" id="notableproject" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalLabel">Noteworthy Projects</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                    <ol class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            456
+                                            <a class="badge badge-warning badge-pill" href="#" download="#">PDF</a>
+                                        </li>
+                                    </ol>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- end seminars modal -->
         </div>
     </div>
 <!-- footer -->
