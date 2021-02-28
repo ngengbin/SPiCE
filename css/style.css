@@ -127,7 +127,7 @@ body {
     font-family: 'Julius Sans One', sans-serif;
     color: white;
 }
-.close {
+.close, .year {
     color: white;
 }
 /* publication */
