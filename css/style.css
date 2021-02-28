@@ -118,7 +118,14 @@ body {
 .proj .cover {
     max-width: 220px;
     border: solid bisque 1px;
-    margin: 10px 0px 10px 0px 
+    margin: 10px 0px 10px 0px;
+}
+.modal-header, .modal-footer {
+    background-color: #4A9DB2;
+}
+#modalLabel {
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
 }
 /* publication */
 .publication {
