@@ -113,6 +113,12 @@ body {
     margin: 25px;
     padding: 10px;
     background-color: white;
+    min-width: 240px;
+}
+.proj .cover {
+    max-width: 220px;
+    border: solid bisque 1px;
+    margin: 10px 0px 10px 0px 
 }
 /* publication */
 .publication {
