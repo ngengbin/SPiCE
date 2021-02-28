@@ -57,9 +57,9 @@ A demo of the site can be found here
 | Action (development testing)             | Results              | Status  |
 | -----------------------------------------|:--------------------:|---------|
 | iOS safari mobile                        | numbers displays blue|         |
-| iOS safari publication - video           | no autoplay          |         |
+| iOS safari mob publication - video       | no autoplay          |         |
 | Samsung 10/11 Chrome                     | wrapped tab          |         |                 
-|                                          |                      |         |
+| iOS FireFox publication - video          | no autoplay          |         |
 |                                          |                      |         |
 
 <hr>
