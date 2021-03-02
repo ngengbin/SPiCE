@@ -127,6 +127,9 @@ body {
     font-family: 'Julius Sans One', sans-serif;
     color: white;
 }
+.badge {
+    margin-left: 10px;
+}
 .year {
     min-width: 80px;
     font-family: 'Montserrat', sans-serif;
