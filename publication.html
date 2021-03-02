@@ -49,21 +49,103 @@
 <!-- mainbody -->
   <div class="container">
         <div class="row justify-content-center">
-            <div class="col">
-                <video class="about rounded mx-auto d-block" width="350" height="240" autoplay controls>
-                    <source src="videos/SRP.mp4" type="video/mp4">
-                </video>
+            <div class="proj col-3">
+                <a>
+                    <img class="cover mx-auto d-block" src="images/srpimg.png" alt="Subsea Rigid Pipelines">
+                </a>
+                <button class="btn btn-info" data-toggle="modal" data-target="#book">Book</button>
             </div>
-            <div class="publist mx-auto d-block col">
-                <img class="col publication rounded mx-auto d-block" src="images/srpimg.png" alt="submarine pipeline">
-                <div class="mx-auto d-block">
-                    <h4>Subsea Rigid Pipelines</h4>
-                    <h6>ISBN (softcover): 9781543751444</h6>
-                    <h6>ISBN (hardcover): 9781543751468</h6>
-                    <h6>ISBN (ebook) : 9781543751451</h6>
-                    <a class="pdf mx-auto btn btn-warning" href="intro.pdf" download="SubseaRigidPipelines">Intro PDF</a>
+<!-- book modal -->
+                <div class="modal fade" id="book" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalLabel">Book</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <video class="about rounded mx-auto d-block" width="350" height="240" autoplay controls>
+                                    <source src="videos/SRP.mp4" type="video/mp4">
+                                </video>
+                                <div class="mx-auto d-block col">
+                                    <img class="col publication rounded mx-auto d-block" src="images/srpimg.png" alt="submarine pipeline">
+                                    <div class="mx-auto d-block">
+                                        <h4>Subsea Rigid Pipelines</h4>
+                                        <h6>ISBN (softcover): 9781543751444</h6>
+                                        <h6>ISBN (hardcover): 9781543751468</h6>
+                                        <h6>ISBN (ebook) : 9781543751451</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="btn btn-warning" href="intro.pdf" download="SubseaRigidPipelines">Intro PDF</a>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+<!-- end book modal -->         
+            <div class="proj col-3">
+                <a>
+                    <img class="cover mx-auto d-block" src="images/projects/seminar.png" alt="Published Articles">
+                </a>
+                <button class="btn btn-info" data-toggle="modal" data-target="#seminar">Articles & Seminars</button>
             </div>
+            <!-- seminars modal -->
+                <div class="modal fade" id="seminar" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalLabel">Articles and Seminars</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                    <ol class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            IBC Talk 2013
+                                            <a class="badge badge-warning badge-pill" href="seminar/IBC Talk 2013.pdf" download="IBC_Talk_2013">PDF</a>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Innovation Magazine Article
+                                            <a class="badge badge-warning badge-pill" href="seminar/Innovation Magazine Article.pdf" download="Innovation_Magazine">PDF</a>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            O&G Journal SEPL Bundle Pull
+                                            <a class="badge badge-warning badge-pill" href="seminar/O&G Journal SEPL Bundle Pull.pdf" download="O&G_Journal_SEPL_Bundle_Pull">PDF</a>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Oil & Gas Journal Shell Bundle
+                                            <a class="badge badge-warning badge-pill" href="seminar/Oil & Gas Journal_Shell Bundle.pdf" download="Oil&Gas_Journal_Shell_Bundle">PDF</a>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Oilman Paper 2020
+                                            <a class="badge badge-warning badge-pill" href="seminar/Oilman Paper 2020.pdf" download="Oilman_Paper_2020">PDF</a>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Petrolmin Pipeliner Article SL
+                                            <a class="badge badge-warning badge-pill" href="seminar/Petromin Pipeliner Article_SL.pdf" download="Petromin_Pipeliner_Article_SL">PDF</a>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Petrolmin Pipeliner Article Dec 2014
+                                            <a class="badge badge-warning badge-pill" href="seminar/Petromin Pipeliner Dec 2014.pdf" download="Petromin_Pipeliner_Article_Dec2014">PDF</a>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Setting Records in Singapore
+                                            <a class="badge badge-warning badge-pill" href="seminar/Setting Records in Singapore.pdf" download="Setting_Records_in_Singapore">PDF</a>
+                                        </li>
+                                    </ol>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- end seminars modal -->
         </div>
     </div>
 <!-- footer -->
@@ -76,3 +158,58 @@
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+<!-- seminars modal -->
+                <div class="modal fade" id="seminar" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalLabel">Articles and Seminars</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                    <ol class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            IBC Talk 2013
+                                            <a class="badge badge-warning badge-pill" href="seminar/IBC Talk 2013.pdf" download="IBC_Talk_2013">PDF</a>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Innovation Magazine Article
+                                            <a class="badge badge-warning badge-pill" href="seminar/Innovation Magazine Article.pdf" download="Innovation_Magazine">PDF</a>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            O&G Journal SEPL Bundle Pull
+                                            <a class="badge badge-warning badge-pill" href="seminar/O&G Journal SEPL Bundle Pull.pdf" download="O&G_Journal_SEPL_Bundle_Pull">PDF</a>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Oil & Gas Journal Shell Bundle
+                                            <a class="badge badge-warning badge-pill" href="seminar/Oil & Gas Journal_Shell Bundle.pdf" download="Oil&Gas_Journal_Shell_Bundle">PDF</a>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Oilman Paper 2020
+                                            <a class="badge badge-warning badge-pill" href="seminar/Oilman Paper 2020.pdf" download="Oilman_Paper_2020">PDF</a>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Petrolmin Pipeliner Article SL
+                                            <a class="badge badge-warning badge-pill" href="seminar/Petromin Pipeliner Article_SL.pdf" download="Petromin_Pipeliner_Article_SL">PDF</a>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Petrolmin Pipeliner Article Dec 2014
+                                            <a class="badge badge-warning badge-pill" href="seminar/Petromin Pipeliner Dec 2014.pdf" download="Petromin_Pipeliner_Article_Dec2014">PDF</a>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Setting Records in Singapore
+                                            <a class="badge badge-warning badge-pill" href="seminar/Setting Records in Singapore.pdf" download="Setting_Records_in_Singapore">PDF</a>
+                                        </li>
+                                    </ol>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- end seminars modal -->
