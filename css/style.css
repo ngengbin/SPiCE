@@ -49,6 +49,9 @@ body {
     margin-left: 2px;
     padding: 8px;
 }
+.nav-link:hover {
+    color: #472827;
+}
 .navtab .nav-item.show .nav-link, .navtab .nav-link.active {
     color: white;
     background-color:black;
