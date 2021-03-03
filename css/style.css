@@ -74,6 +74,9 @@ body {
     width: 40px;
     padding-right: 10px;
 }
+li {
+    padding: 10px;
+}
 /* about us */
 .about {
     margin-top: 20px;
