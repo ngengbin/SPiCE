@@ -129,7 +129,7 @@ li {
 .modal-header, .modal-footer {
     background-color: #1FA2B8;
 }
-#modalLabel, .close {
+#modalLabelLL, #modalLabelNP, .close {
     font-family: 'Julius Sans One', sans-serif;
     color: white;
 }
