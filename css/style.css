@@ -27,12 +27,12 @@ body {
 .dropdown {
     padding-top: 10px;
 }
-@media screen and (min-width: 411px) {
+@media screen and (min-width: 511px) {
     div.dropdown {
       display: none;
     }
 }
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 510px) {
     div.navtab {
       display: none;
     }
