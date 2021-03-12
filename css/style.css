@@ -26,7 +26,8 @@ body {
 }
 .dropdown {
     padding-top: 10px;
-    float: right
+    float: right;
+    position: relative;
 }
 @media screen and (min-width: 511px) {
     div.dropdown {
