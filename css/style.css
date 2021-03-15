@@ -60,9 +60,10 @@ body {
 .navtab .nav-item.show .nav-link, .navtab .nav-link.active {
     color: white;
     background-color:#476276;
-    border-color: #476276;
+    border-color: white;
     border-radius: 15px;
     margin-bottom: -15px;
+    margin-left: 10px;
 }
 .carousel {
     margin: 30px;
