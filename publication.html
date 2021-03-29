@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPiCE - Submarine Pipelines Consulting Engineers </title>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Julius+Sans+One&family=Lato&family=Montserrat&family=Open+Sans&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel&family=Julius+Sans+One&family=Lato&family=Montserrat&family=Open+Sans&family=Raleway&family=Roboto&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="row">
@@ -18,10 +22,12 @@
             </div>
             <div class="text">Submarine Pipeline Consulting Engineers</div>
         </div>
-<!-- Hamburger Dropdown -->
+        <!-- Hamburger Dropdown -->
         <div class="nav-item dropdown">
-            <a class="nav-link dropdown" href="#" id="dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navtab" aria-controls="navtab" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="nav-link dropdown" href="#" id="dropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navtab"
+                    aria-controls="navtab" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon hamburger"></span>
                 </button>
             </a>
@@ -36,7 +42,7 @@
             </div>
         </div>
     </nav>
-<!-- Navbar Tablist -->
+    <!-- Navbar Tablist -->
     <nav class="navtab">
         <div class="row">
             <div class="nav navtab" id="navtab" role="tablist">
@@ -48,117 +54,135 @@
             </div>
         </div>
     </nav>
-<!-- mainbody -->
-  <div class="container">
+    <!-- mainbody -->
+    <div class="container">
         <div class="row justify-content-center">
             <div class="proj col-3">
                 <a>
                     <img class="cover mx-auto d-block" src="images/srpimg.png" alt="Subsea Rigid Pipelines">
                 </a>
-                <button class="btn btn-info" data-toggle="modal" data-target="#book">Book</button>
+                <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#book">Book</button>
             </div>
-<!-- book modal -->
-                <div class="modal fade" id="book" tabindex="-1" role="dialog" aria-labelledby="modalLabelB" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modalLabelB">Book</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <!-- book modal -->
+            <div class="modal fade" id="book" tabindex="-1" role="dialog" aria-labelledby="modalLabelB"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLabelB">Book</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <video class="about rounded mx-auto d-block" width="350" height="240" controls>
-                                    <source src="videos/SRP.mp4" type="video/mp4">
-                                </video>
-                                <div class="col mx-auto d-block">
-                                    <img class="publication rounded mx-auto d-block" src="images/srpimg.png" alt="submarine pipeline">
-                                    <div class="mx-auto d-block">
-                                        <h4>Subsea Rigid Pipelines</h4>
-                                        <h6>ISBN (softcover): 9781543751444</h6>
-                                        <h6>ISBN (hardcover): 9781543751468</h6>
-                                        <h6>ISBN (ebook) : 9781543751451</h6>
-                                    </div>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video class="about rounded mx-auto d-block" width="350" height="240" controls>
+                                <source src="videos/SRP.mp4" type="video/mp4">
+                            </video>
+                            <div class="col mx-auto d-block">
+                                <img class="publication rounded mx-auto d-block" src="images/srpimg.png"
+                                    alt="submarine pipeline">
+                                <div class="mx-auto d-block">
+                                    <h4>Subsea Rigid Pipelines</h4>
+                                    <h6>ISBN (softcover): 9781543751444</h6>
+                                    <h6>ISBN (hardcover): 9781543751468</h6>
+                                    <h6>ISBN (ebook) : 9781543751451</h6>
                                 </div>
                             </div>
-                            <div class="modal-footer">
-                                <a class="btn btn-warning" href="intro.pdf" download="SubseaRigidPipelines">Intro PDF</a>
-                                <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a class="btn btn-warning" href="intro.pdf" download="SubseaRigidPipelines">Intro PDF</a>
+                            <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
-<!-- end book modal -->         
+            </div>
+            <!-- end book modal -->
             <div class="proj col-3">
                 <a>
                     <img class="cover mx-auto d-block" src="images/projects/seminar.png" alt="Published Articles">
                 </a>
-                <button class="btn btn-info" data-toggle="modal" data-target="#seminar">Articles & Seminars</button>
+                <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#seminar">Articles & Seminars</button>
             </div>
             <!-- seminars modal -->
-                <div class="modal fade" id="seminar" tabindex="-1" role="dialog" aria-labelledby="modalLabelAS" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modalLabelAS">Articles and Seminars</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <div class="modal fade" id="seminar" tabindex="-1" role="dialog" aria-labelledby="modalLabelAS"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLabelAS">Articles and Seminars</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                    <ol class="list-group">
-                                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            IBC Talk 2013
-                                            <a class="badge badge-warning badge-pill" href="seminar/IBCTalk2013.pdf" download="IBC_Talk_2013">PDF</a>
-                                        </li>
-                                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            Innovation Magazine Article
-                                            <a class="badge badge-warning badge-pill" href="seminar/InnovationMagazineArticle.pdf" download="Innovation_Magazine">PDF</a>
-                                        </li>
-                                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            O&G Journal SEPL Bundle Pull
-                                            <a class="badge badge-warning badge-pill" href="seminar/O&GJournalSEPLBundlePull.pdf" download="O&G_Journal_SEPL_Bundle_Pull">PDF</a>
-                                        </li>
-                                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            Oil & Gas Journal Shell Bundle
-                                            <a class="badge badge-warning badge-pill" href="seminar/Oil&GasJournalShellBundle.pdf" download="Oil&Gas_Journal_Shell_Bundle">PDF</a>
-                                        </li>
-                                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            Oilman Paper 2020
-                                            <a class="badge badge-warning badge-pill" href="seminar/OilmanPaper2020.pdf" download="Oilman_Paper_2020">PDF</a>
-                                        </li>
-                                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            Petrolmin Pipeliner Article SL
-                                            <a class="badge badge-warning badge-pill" href="seminar/PetrominPipelinerArticleSL.pdf" download="Petromin_Pipeliner_Article_SL">PDF</a>
-                                        </li>
-                                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            Petrolmin Pipeliner Article Dec 2014
-                                            <a class="badge badge-warning badge-pill" href="seminar/PetrominPipelinerDec2014.pdf" download="Petromin_Pipeliner_Article_Dec2014">PDF</a>
-                                        </li>
-                                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            Setting Records in Singapore
-                                            <a class="badge badge-warning badge-pill" href="seminar/SettingRecordsinSingapore.pdf" download="Setting_Records_in_Singapore">PDF</a>
-                                        </li>
-                                    </ol>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-                            </div>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <ol class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    IBC Talk 2013
+                                    <a class="badge badge-warning badge-pill" href="seminar/IBCTalk2013.pdf"
+                                        download="IBC_Talk_2013">PDF</a>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Innovation Magazine Article
+                                    <a class="badge badge-warning badge-pill"
+                                        href="seminar/InnovationMagazineArticle.pdf"
+                                        download="Innovation_Magazine">PDF</a>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    O&G Journal SEPL Bundle Pull
+                                    <a class="badge badge-warning badge-pill"
+                                        href="seminar/O&GJournalSEPLBundlePull.pdf"
+                                        download="O&G_Journal_SEPL_Bundle_Pull">PDF</a>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Oil & Gas Journal Shell Bundle
+                                    <a class="badge badge-warning badge-pill"
+                                        href="seminar/Oil&GasJournalShellBundle.pdf"
+                                        download="Oil&Gas_Journal_Shell_Bundle">PDF</a>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Oilman Paper 2020
+                                    <a class="badge badge-warning badge-pill" href="seminar/OilmanPaper2020.pdf"
+                                        download="Oilman_Paper_2020">PDF</a>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Petrolmin Pipeliner Article SL
+                                    <a class="badge badge-warning badge-pill"
+                                        href="seminar/PetrominPipelinerArticleSL.pdf"
+                                        download="Petromin_Pipeliner_Article_SL">PDF</a>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Petrolmin Pipeliner Article Dec 2014
+                                    <a class="badge badge-warning badge-pill"
+                                        href="seminar/PetrominPipelinerDec2014.pdf"
+                                        download="Petromin_Pipeliner_Article_Dec2014">PDF</a>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Setting Records in Singapore
+                                    <a class="badge badge-warning badge-pill"
+                                        href="seminar/SettingRecordsinSingapore.pdf"
+                                        download="Setting_Records_in_Singapore">PDF</a>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
-<!-- end seminars modal -->
+            </div>
+            <!-- end seminars modal -->
         </div>
     </div>
-<!-- footer -->
+    <!-- footer -->
     <footer class="nav navbar footer"> &copy; 2021 Submarine Pipeline Consulting Engineers. <br> All rights reserved.
         <a class="socmed" href="https://www.linkedin.com/in/eng-bin-ng" target="blank">
             <img class="socmed" src="images/logo/inlogo.png" alt="linkedin, Dr. Eng-Bin Ng">
         </a>
     </footer>
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
-
-
