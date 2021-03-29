@@ -63,21 +63,18 @@
                 </a>
                 <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#book">Book</button>
             </div>
-            <!-- book modal -->
-            <div class="modal fade" id="book" tabindex="-1" role="dialog" aria-labelledby="modalLabelB"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
+            <!-- Book Modal -->
+            <div class="modal fade" id="book" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="modalLabelB">Book</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <video class="about rounded mx-auto d-block" width="350" height="240" controls>
-                                <source src="videos/SRP.mp4" type="video/mp4">
-                            </video>
+                                <source src="videos/SRP.mp4" type="video/mp4"></video>
                             <div class="col mx-auto d-block">
                                 <img class="publication rounded mx-auto d-block" src="images/srpimg.png"
                                     alt="submarine pipeline">
@@ -90,8 +87,8 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <a class="btn btn-warning" href="intro.pdf" download="SubseaRigidPipelines">Intro PDF</a>
-                            <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                            <a href="intro.pdf" download="SubseaRigidPipelines" class="btn btn-warning">Intro PDF</a>
+                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -101,18 +98,17 @@
                 <a>
                     <img class="cover mx-auto d-block" src="images/projects/seminar.png" alt="Published Articles">
                 </a>
-                <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#seminar">Articles & Seminars</button>
+                <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#seminar">Articles &
+                    Seminars</button>
             </div>
-            <!-- seminars modal -->
-            <div class="modal fade" id="seminar" tabindex="-1" role="dialog" aria-labelledby="modalLabelAS"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
+            <!-- Seminars Modal -->
+            <div class="modal fade" id="seminar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="modalLabelAS">Articles and Seminars</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <ol class="list-group">
@@ -165,7 +161,7 @@
                             </ol>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
