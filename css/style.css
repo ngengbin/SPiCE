@@ -1,73 +1,33 @@
 body {
     background-color:#476276;
 }
-.header {
-    width: 100vw;
-    height: 120px;
-    background-color: white;
-}
 .logo {
     width: 130px;
     padding: 15px;
 }
-.text {
-    font-family: 'Cinzel', 'Julius Sans One', 'sans-serif';
-    font-weight: 800;
-    font-size: x-large;
-    padding-top: 20px;
+@media screen and (min-width: 768px) {
+    .hidden {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .topbar {
+        display: none;
+    }
+}
+.topbar {
+    font-family: 'Cinzel', serif;
     color: #472827;
-    flex-shrink: 0;
-}
-
-@media screen and (max-width: 760px) {
-    div.text {
-      display: none;
-    }
-}
-.dropdown {
-    padding-top: 10px;
-    float: right;
-}
-.dropdown-menu {
-    position: relative;
-}
-@media screen and (min-width: 511px) {
-    div.dropdown {
-      display: none;
-    }
-}
-@media screen and (max-width: 510px) {
-    div.navtab {
-      display: none;
-    }
-}
-.navtab {
-    height: 40px;
-    background-color:white;
-    color: black;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 14.5px;
-    padding-left: 5px;
+    font-size: 80%;
+    padding-top: 15px;
 }
 .nav-link {
-    color: #472827;
-    margin-left: 2px;
-    padding: 8px;
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
 }
 .nav-link:hover {
-    color: #666666;
-}
-.navtab .nav-item.show .nav-link, .navtab .nav-link.active {
     color: white;
     background-color:#476276;
-    border-color: white;
-    border-radius: 15px;
-    margin-bottom: -15px;
-    margin-left: 10px;
-}
-.carousel {
-    margin: 30px;
-    max-width: 420px;
 }
 .footer {
     position: relative;
@@ -82,6 +42,12 @@ body {
     width: 40px;
     padding-right: 10px;
 }
+/* testimonials */
+.carousel {
+    margin: 30px;
+    max-width: 420px;
+} 
+
 li {
     padding: 10px;
 }
@@ -137,8 +103,8 @@ li {
 .modal-header, .modal-footer {
     background-color: #1FA2B8;
 }
-#modalLabelLL, #modalLabelNP, #modalLabelAS, #modalLabelB, .close {
-    font-family: 'Julius Sans One', sans-serif;
+#lunchlearnLabel, #notableprojectsLabel, #ASLabel, #bookLabel, .close {
+    font-family: 'Cinzel', serif;
     color: white;
 }
 .badge {

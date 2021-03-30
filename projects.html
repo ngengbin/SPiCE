@@ -1,196 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head profile="http://www.submarinepipeline.com">
+    <link rel="icon" type="image/png" href="images/logo/favicon.ico">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPiCE - Submarine Pipelines Consulting Engineers </title>
+    <title>SPiCE - Submarine Pipelines Consulting Engineers</title>
+    <meta name="description"
+        content="Submarine Pipeline Consulting Engineers is a Sole Proprietorship Company, first established in 1993, by Dr. Eng-Bin Ng to provide unparallel engineering services for offshore, subsea & submarine projects in the oil & gas sector.">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
-        href="https://fonts.googleapis.com/css2?family=Cinzel&family=Julius+Sans+One&family=Lato&family=Montserrat&family=Open+Sans&family=Raleway&family=Roboto&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;600&family=Cinzel:wght@400;500&family=Montserrat&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="row">
-            <div class="col">
-                <a class="navbar-brand" href="index.html">
-                    <img class="logo d-inline-block align-center" src="images/logo/spice.png" alt="SPiCE"></a>
-            </div>
-            <div class="text">Submarine Pipeline Consulting Engineers</div>
-        </div>
-        <!-- Hamburger Dropdown -->
-        <div class="nav-item dropdown">
-            <a class="nav-link dropdown" href="#" id="dropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navtab"
-                    aria-controls="navtab" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon hamburger"></span>
-                </button>
+    <nav>
+        <div class="topbar navbar navbar-light bg-light justify-content-start">
+            <a class="navbar navbar-brand" href="index.html">
+                <img class="logo" src="images/logo/spice.png" alt="SPiCE">
             </a>
-            <div class="dropdown-menu" aria-labelledby="navtab">
-                <a class="dropdown-item" href="index.html">About Us</a>
-                <a class="dropdown-item" href="consultant.html">Consultant</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="projects.html">Projects</a>
-                <a class="dropdown-item" href="publication.html">Publication</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="recommend.html">Testimonials</a>
+            <h4 class="mt-2">Submarine Pipelines Consulting Engineers</h4>
+        </div>
+        <div class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand hidden" href="index.html">
+                    <img class="logo" src="images/logo/spice.png" alt="SPiCE" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigator"
+                    aria-controls="topbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navigator">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">AboutUs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="consultant.html">Consultant</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="publication.html">Publication</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recommend.html">Testimonials</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
-    <!-- Navbar Tablist -->
-    <nav class="navtab">
-        <div class="row">
-            <div class="nav navtab" id="navtab" role="tablist">
-                <a class="nav-item nav-link" href="index.html" role="tab">About Us</a>
-                <a class="nav-item nav-link" href="consultant.html" role="tab">Consultant</a>
-                <a class="nav-item nav-link active" href="projects.html" role="tab">Projects</a>
-                <a class="nav-item nav-link" href="publication.html" role="tab">Publication</a>
-                <a class="nav-item nav-link" href="recommend.html" role="tab">Testimonials</a>
-            </div>
-        </div>
-    </nav>
-    <!-- mainbody -->
+    <!-- main body -->
     <div class="container">
         <div class="row justify-content-center">
             <div class="proj col-3">
                 <a>
                     <img class="cover mx-auto d-block" src="images/projects/lunchlearn.png" alt="Lunch & Learn">
                 </a>
-                <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#lunchlearn">Lunch & Learn</button>
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#lunchlearn">Lunch &
+                    Learn</button>
             </div>
             <!-- lunchlearn modal -->
-            <div class="modal fade" id="lunchlearn" tabindex="-1" role="dialog" aria-labelledby="modalLabelLL"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
+
+            <!-- Modal -->
+            <div class="modal fade" id="lunchlearn" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="lunchlearnLabel" aria-hidden="true">
+                <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="modalLabelLL">Lunch and Learn</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+                            <h5 class="modal-title" id="lunchlearnLabel">Lunch and Learn</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <ol class="list-group">
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Articulated Stinger Discussion
-                                    <a class="badge badge-warning badge-pill"
-                                        href="lunchlearn/ArticulatedStingerDiscussion.pdf"
-                                        download="Articulated_Stinger_Discussion.pdf">PDF</a>
+                                    <a href="lunchlearn/ArticulatedStingerDiscussion.pdf"
+                                        download="Articulated_Stinger_Discussion.pdf"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Bottom Pull Project Examples
-                                    <a class="badge badge-warning badge-pill"
-                                        href="lunchlearn/BottomPullProjectExamples.pdf"
-                                        download="Bottom_Pull_Project_Examples">PDF</a>
+                                    <a href="lunchlearn/BottomPullProjectExamples.pdf"
+                                        download="Bottom_Pull_Project_Examples"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Bundle Bottom Pull
-                                    <a class="badge badge-warning badge-pill" href="lunchlearn/BundleBottomPull.pdf"
-                                        download="Bundle_Bottom_Pull">PDF</a>
+                                    <a href="lunchlearn/BundleBottomPull.pdf"
+                                        download="Bundle_Bottom_Pull"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Dahej Project ECS Version
-                                    <a class="btn badge badge-warning badge-pill"
-                                        href="lunchlearn/DahejProjectECSVersion.pdf"
-                                        download="Dahej_Project_ECS_Version">PDF</a>
+                                    <a href="lunchlearn/DahejProjectECSVersion.pdf"
+                                        download="Dahej_Project_ECS_Version"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Evolution of Subsea Sector
-                                    <a class="badge badge-warning badge-pill"
-                                        href="lunchlearn/EvolutionofSubseaSectorFinal.pdf"
-                                        download="Evolution_Of_Subsea_Sector_Final">PDF</a>
+                                    <a href="lunchlearn/EvolutionofSubseaSectorFinal.pdf"
+                                        download="Evolution_Of_Subsea_Sector_Final"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Function of PLETs & Installation
-                                    <a class="badge badge-warning badge-pill"
-                                        href="lunchlearn/FunctionofPLETs&Howtheyareinstalled.pdf"
-                                        download="Function_of_PLETs_Installation">PDF</a>
+                                    <a href="lunchlearn/FunctionofPLETs&Howtheyareinstalled.pdf"
+                                        download="Function_of_PLETs_Installation"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     IBC Talk 2013
-                                    <a class="badge badge-warning badge-pill" href="lunchlearn/IBCTalk2013.pdf"
-                                        download="IBC_Talk_2013">PDF</a>
+                                    <a href="lunchlearn/IBCTalk2013.pdf"
+                                        download="IBC_Talk_2013"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Installation of Floating Facilities & Mooring Legs
-                                    <a class="badge badge-warning badge-pill"
-                                        href="lunchlearn/Installationoffloatingfacilities&mooringlegs.pdf"
-                                        download="Installtion_Of_Floating_Facilities_And_Mooring_Legs">PDF</a>
+                                    <a href="lunchlearn/Installationoffloatingfacilities&mooringlegs.pdf"
+                                        download="Installtion_Of_Floating_Facilities_And_Mooring_Legs"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Introduction to Submarine Pipeline Installation
-                                    <a class="badge badge-warning badge-pill"
-                                        href="lunchlearn/IntroductiontoSubmarinePipelineInstallation-ConventionalandUnconventionalMethods.pdf"
-                                        download="Introduction_To_Submarine_Pipeline_Installation">PDF</a>
+                                    <a href="lunchlearn/IntroductiontoSubmarinePipelineInstallation-ConventionalandUnconventionalMethods.pdf"
+                                        download="Introduction_To_Submarine_Pipeline_Installation"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     JB Talk on Pipelines
-                                    <a class="badge badge-warning badge-pill"
-                                        href="lunchlearn/JBTalkonPipelinesMay14.pdf"
-                                        download="JB_Talk_On_Pipelines">PDF</a>
+                                    <a href="lunchlearn/JBTalkonPipelinesMay14.pdf"
+                                        download="JB_Talk_On_Pipelines"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Pipe Protection Presentation
-                                    <a class="badge badge-warning badge-pill"
-                                        href="lunchlearn/PipeProtectionPresentation.pdf"
-                                        download="Pipe_Protection">PDF</a>
+                                    <a href="lunchlearn/PipeProtectionPresentation.pdf"
+                                        download="Pipe_Protection"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Pipelay Initiation Presentation
-                                    <a class="badge badge-warning badge-pill"
-                                        href="lunchlearn/PipelayInitiationPresentation1.pdf"
-                                        download="Pipelay_Initiation_Presentation">PDF</a>
+                                    <a href="lunchlearn/PipelayInitiationPresentation1.pdf"
+                                        download="Pipelay_Initiation_Presentation"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Rentis Method of Pipeline Installation
-                                    <a class="badge badge-warning badge-pill"
-                                        href="lunchlearn/RentisMethodofPipelineInstallationFinal.pdf"
-                                        download="Rentis_Method_Of_Pipeline_Installation">PDF</a>
+                                    <a href="lunchlearn/RentisMethodofPipelineInstallationFinal.pdf"
+                                        download="Rentis_Method_Of_Pipeline_Installation"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Repairs for In-Service Pipelines
-                                    <a class="badge badge-warning badge-pill"
-                                        href="lunchlearn/RepairsforIn-servicePipelines.pdf"
-                                        download="Repairs_For_In_Service_Pipelines">PDF</a>
+                                    <a href="lunchlearn/RepairsforIn-servicePipelines.pdf"
+                                        download="Repairs_For_In_Service_Pipelines"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Riser Installation
-                                    <a class="badge badge-warning badge-pill" href="lunchlearn/RiserInstallation.pdf"
-                                        download="Riser_Installation">PDF</a>
+                                    <a href="lunchlearn/RiserInstallation.pdf"
+                                        download="Riser_Installation"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Rock Production at Quarry for Pipe Protection & Other Uses
-                                    <a class="badge badge-warning badge-pill"
-                                        href="lunchlearn/RockProductionatQuarryforPipeProtection&OtherUses.pdf"
-                                        download="Rock_Production_Quarry_Pipeline_Protection">PDF</a>
+                                    <a href="lunchlearn/RockProductionatQuarryforPipeProtection&OtherUses.pdf"
+                                        download="Rock_Production_Quarry_Pipeline_Protection"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Seabed Intervention Methodologies April 2015
-                                    <a class="badge badge-warning badge-pill"
-                                        href="lunchlearn/SeabedInterventionMethodologies_23April2015.pdf"
-                                        download="Seabed_Intervention_2015">PDF</a>
+                                    <a href="lunchlearn/SeabedInterventionMethodologies_23April2015.pdf"
+                                        download="Seabed_Intervention_2015"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Seabed Intervention Methodologies September 2019
-                                    <a class="badge badge-warning badge-pill"
-                                        href="lunchlearn/SeabedInterventionMethodologies_Sept2019.pdf"
-                                        download="Seabed_Intervention_2019">PDF</a>
+                                    <a href="lunchlearn/SeabedInterventionMethodologies_Sept2019.pdf"
+                                        download="Seabed_Intervention_2019"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     Spoiler Presentation
-                                    <a class="badge badge-warning badge-pill"
-                                        href="lunchlearn/SpoilerPresentation_Final.pdf"
-                                        download="Spoiler_Presentation">PDF</a>
+                                    <a href="lunchlearn/SpoilerPresentation_Final.pdf"
+                                        download="Spoiler_Presentation"><span class="badge rounded-pill bg-warning">PDF</span></a>
                                 </li>
                             </ol>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -201,19 +189,17 @@
                     <img class="cover mx-auto d-block" src="images/projects/notableproject.png"
                         alt="Noteworthy Projects">
                 </a>
-                <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#notableproject">Noteworthy
+                <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#notableproject">Noteworthy
                     Projects</button>
             </div>
             <!-- notable projects modal -->
-            <div class="modal fade" id="notableproject" tabindex="-1" role="dialog" aria-labelledby="modalLabelNP"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
+            <div class="modal fade" id="notableproject" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="notableprojectLabel" aria-hidden="true">
+                <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="modalLabelNP">Noteworthy Projects</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+                            <h5 class="modal-title" id="notableprojectLabel">Noteworthy Projects</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <ol class="list-group">
@@ -314,12 +300,11 @@
                                     <span class="badge year bg-success rounded-pill">1979–1984</span>
                                 </li>
                             </ol>
-
                         </div>
                         <div class="modal-footer">
                             <a class="btn btn-warning" href="PastProjectsSummary.pdf"
                                 download="Past_Project_Summary">Download PDF</a>
-                            <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>

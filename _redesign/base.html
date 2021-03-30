@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
     <nav>
         <div class="topbar navbar navbar-light bg-light justify-content-start">
@@ -57,48 +56,14 @@
             </div>
         </div>
     </nav>
-    <!-- mainbody -->
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col">
-                <img class="rounded mx-auto d-block profile" src="images/NEBheadshot.png" alt="Dr. Eng-Bin Ng">
-                <br>
-                <a class="pdf mx-auto d-block btn btn-warning" href="NgEngBin_CV_Jan2021.pdf"
-                    download="NgEngBinCV">Download PDF</a>
-            </div>
-            <div class="about col-10">
-                <ul>
-                    <li>Very experienced Senior Offshore Engineering, Construction and Management Executive
-                        with significant strategic and operational experience in leading large-scale
-                        offshore/subsea projects.</li>
-                    <li>Extensive participation in the execution of EPCI, EPCM, T&I
-                        and engineering projects.</li>
-                    <li>Substantial Project Management experiences for subsea/offshore
-                        projects with responsibility in engineering design and field engineering
-                        whilst actively supporting other key elements of projects to ensure success. </li>
-                    <li>Myriad management experience working alongside operators, contractors and consultants to
-                        build and lead large teams (100+ designers and engineers)
-                        with the responsibility for the delivery of complex projects within
-                        the international oil and gas industry, often in challenging work environments.</li>
-                    <li>Registered Professional and Chartered Engineer with qualifications in Engineering, Business
-                        Administration
-                        and Law.</li>
-                    <li>Technical Expert in Arbitration between two disputing parties on Offshore Construction Project.
-                    </li>
-                    <li>Author of Book entitled “Subsea Rigid Pipelines – Methods of Installation” published in 2019.
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- footer -->
+    {{% block content %}}
+
+    {{% endblock %}}
     <footer class="nav navbar footer"> &copy; 2021 Submarine Pipeline Consulting Engineers. <br> All rights reserved.
         <a class="socmed" href="https://www.linkedin.com/in/eng-bin-ng" target="blank">
             <img class="socmed" src="images/logo/inlogo.png" alt="linkedin, Dr. Eng-Bin Ng">
         </a>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
