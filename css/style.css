@@ -113,7 +113,7 @@ li {
 .modal-header, .modal-footer {
     background-color: #1FA2B8;
 }
-#lunchlearnLabel, #notableprojectsLabel, #ASLabel, #bookLabel, .close {
+#lunchlearnLabel, #notableprojectLabel, #ASLabel, #bookLabel, .close {
     font-family: 'Cinzel', serif;
     color: white;
 }
