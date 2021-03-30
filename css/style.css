@@ -36,6 +36,9 @@ body {
     font-family: 'Catamaran', sans-serif;
     padding-left: 10px;
 }
+.btn-info {
+    color: white;
+}
 .footer {
     position: relative;
     width: 100vw;
