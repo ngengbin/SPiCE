@@ -1,5 +1,6 @@
 body {
-    background-color:#476276;
+    background-color: #476276;
+    font-family: 'Catamaran', sans-serif;
 }
 .logo {
     width: 130px;
@@ -21,20 +22,22 @@ body {
     font-size: 80%;
     padding-top: 15px;
 }
-.nav-link {
-    color: black;
-    font-family: 'Julius Sans One', sans-serif;
+.nav-tabs {
+    font-family: 'Catamaran', sans-serif;
+    padding-left: 10px;
+    color: #472827;
 }
-.nav-link:hover {
-    color: white;
-    background-color:#476276;
+.nav-tabs .active {
+    background-color:#476276 !important;
+    color: lightgray !important;
+    font-family: 'Catamaran', sans-serif;
 }
 .footer {
     position: relative;
     width: 100vw;
     height: 45px;
     background-color: white;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Cinzel', serif;
     font-size: xx-small;
     padding-left: 10px;
 }
