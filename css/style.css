@@ -22,15 +22,19 @@ body {
     font-size: 80%;
     padding-top: 15px;
 }
-.nav-tabs {
+.nav-pills {
     font-family: 'Catamaran', sans-serif;
-    padding-left: 10px;
     color: #472827;
 }
-.nav-tabs .active {
+.nav-pills .nav-link {
+    margin-bottom: -21px;
+    border: 0px;
+}
+.nav-pills .active {
     background-color:#476276 !important;
     color: lightgray !important;
     font-family: 'Catamaran', sans-serif;
+    padding-left: 10px;
 }
 .footer {
     position: relative;
