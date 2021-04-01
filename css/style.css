@@ -40,7 +40,7 @@ body {
     color: white;
 }
 .container {
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .footer {
     position: relative;
@@ -148,4 +148,12 @@ li {
 
 .list-group-item {
     text-align: left;
+}
+
+/* carousel icons */
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    font-size: 15px;
+}
+.visually-hidden {
+    font-size: 9px;
 }
