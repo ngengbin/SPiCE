@@ -152,8 +152,8 @@ li {
 
 /* carousel icons */
 .carousel-control-next-icon, .carousel-control-prev-icon {
-    font-size: 15px;
+    font-size: 18px;
 }
 .visually-hidden {
-    font-size: 9px;
+    font-size: 11px;
 }
