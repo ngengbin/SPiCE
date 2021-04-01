@@ -39,6 +39,9 @@ body {
 .btn-info {
     color: white;
 }
+.container {
+    margin-top: 15px;
+}
 .footer {
     position: relative;
     width: 100vw;
