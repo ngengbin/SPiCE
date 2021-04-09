@@ -1,44 +1,21 @@
 # Submarine Pipeline Consulting Engineers - SPiCE
 
-
+SPiCE was built on the premise to extend Dr. Eng-Bin Ng's online presence as the premier consultant in engineering submarine pipelines for the Oil and Gas industry.
 
 # UX - User Experience
 
 Wireframe of the build design includes:
-```
-
-```
-
-![Wireframe]()
+![Wireframe](readme/spice.001.jpeg)
 
 <hr>
 
-![Color Chart]()
-<br>
-
-
-
-<img src="#" alt="#" width="30px"> <br>
-<img src="#" alt="#" width="30px"> <br>
-<img src="#" alt="#" width="30px"> <br>
-<img src="#" alt="#" width="30px"> <br>
-
-<hr>
-
-![Font Gylps]()<br>
-
-<hr>
-
-A demo of the site can be found here
-
-![Interactive Web Design]()
+Deployed site can be found here: [submarinepipelines.com](https://submarinepipelines.com)
 
 
 ## Built With 
 ### Technologies
 1. HTML 5.0 + CSS
 2. Bootstrap 4.0 - CSS & JS [https://getbootstrap.com/](https://getbootstrap.com/)
-3. 
 
 ### Styling
 1. Google Fonts [https://fonts.google.com/](https://fonts.google.com/)
@@ -83,32 +60,8 @@ A demo of the site can be found here
 
 <hr>
 
-# Features
-### Existing Features
-1. 
-2. 
-3. 
-
-### Features left to Implement
-1. 
-2. 
-3. 
 
 
 # Deployment
 https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef
 
-# Credits
-
-
-## Content
-
-## Media
-1. 
-2. 
-3. 
-
-## Acknowledgments
-1.
-2.
-3.
